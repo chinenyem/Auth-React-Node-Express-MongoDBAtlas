@@ -1,6 +1,7 @@
 module.exports = {
-	mongoURI:'mongodb://<username>:<password>@chinenyemcluster-shard-00-00-wj6l7.mongodb.net:27017,chinenyemcluster-shard-00-01-wj6l7.mongodb.net:27017,chinenyemcluster-shard-00-02-wj6l7.mongodb.net:27017/chinenyemcluster-shard-0?ssl=true&replicaSet=ChinenyemCluster-shard-0&authSource=admin&retryWrites=true&w=majority',
-  secretOrKey: "secret",
+	//mongoURI:'mongodb://Chinenyem:Sheshe13@chinenyemcluster-shard-00-00-wj6l7.mongodb.net:27017,chinenyemcluster-shard-00-01-wj6l7.mongodb.net:27017,chinenyemcluster-shard-00-02-wj6l7.mongodb.net:27017/chinenyemcluster-shard-0?ssl=true&replicaSet=ChinenyemCluster-shard-0&authSource=admin&retryWrites=true&w=majority',
+  mongoURI:'mongodb://Shelby:Panda87@cluster0-shard-00-00-0p6ne.mongodb.net:27017,cluster0-shard-00-01-0p6ne.mongodb.net:27017,cluster0-shard-00-02-0p6ne.mongodb.net:27017/cluster0-shard-0?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',
+	secretOrKey: "secret"
 }
 
 // {

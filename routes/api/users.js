@@ -58,7 +58,7 @@ const { errors, isValid } = validateLoginInput(req.body);
   if (!isValid) {
     return res.status(400).json(errors);
   }
-const email = req.body.email;
+  const email = req.body.email;
   const password = req.body.password;
 // Find user by email
   User.findOne({ email }).then(user => {
@@ -73,7 +73,8 @@ const email = req.body.email;
         // Create JWT Payload
         const payload = {
           id: user.id,
-          name: user.name
+          name: user.name,
+          email: user.email
         };
 // Sign token
         jwt.sign(
